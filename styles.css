@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 #content {
     max-width: 960px;
       margin: 0 auto;
     }
  body {
-     background-color: #dcdcdc;
-    font-family: Gayathri;
+     background-color: #1858e0;
+    font-family: Raleway;
  }
