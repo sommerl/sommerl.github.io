@@ -1,5 +1,5 @@
 function dateModified() {
-document.write(document.lastModified);
+document.write(document.datetModified);
 }
 
 dateModified;
