@@ -1,6 +1,8 @@
-body {
-    max-width: 900px;
-    margin: 0 auto;
-    background-color: blue;
-    padding: 1em;
+.student-pic {
+    max-width: 120px;
+    float: right;
+    border-radius: 10px;
+    box-shadow: #5B5B5D 5px 5px 10px;
+    margin-right: 10px;
+    margin-top: 10px;
 }
