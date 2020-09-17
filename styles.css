@@ -23,7 +23,7 @@ header {
 }
 
 .studentPic {
-    max-width: 200px;
+    max-width: 50px;
     float: right;
     border-radius: .5em;
     margin: 2em;
