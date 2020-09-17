@@ -22,7 +22,7 @@
     html {
         background-color: lavender;
         font-family: var(--heading-font);
-        color: var(--base-font-color);
+        color: var(--last-updated-font-color);
     }
 
     main {
