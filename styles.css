@@ -29,3 +29,29 @@
         background-color: #83B4A6;
         border-radius: var(--rounded-edges-hidden);
     }
+
+    main {
+        padding: 1em;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .block {
+        background-color: #5D81BE;
+        font-family: "Open Sans Condensed";
+        color: #682F37;
+    }
+
+    header .block {
+        border-radius: var(--rounded-edges-block) var(--rounded-edges-block) 0em 0em;
+    }
+
+    footer .block {
+        border-radius: 0em 0em var(--rounded-edges-block) var(--rounded-edges-block);
+    }
+
+    .student {
+        padding: 1px 0em 1px 5em;
+    }
