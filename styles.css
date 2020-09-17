@@ -17,6 +17,7 @@
         --rounded-edges-hidden: 1em;
         --rounded-edges-block: calc(var(--rounded-edges-hidden) - 0.2em);
     }
+
     html {
         background-color: #D0EAF2;
         font-family: "Kufam";
@@ -55,3 +56,34 @@
     .student {
         padding: 1px 0em 1px 5em;
     }
+
+    .studentPic {
+        float: right;
+        margin: 0.75em;
+        box-shadow: 0px 0px 12px var(--one-background-color);
+        border-radius: 0.25em;    
+    }
+    
+    .title {
+        margin-bottom: 0.0em;
+    }
+    
+    .lessons {
+        margin-top: 0.5em;
+        margin-bottom: em;
+        font-weight: 600;
+    }
+    
+    .credit {
+        padding: 1px 0em 1px 0.1em;
+    }
+    
+    footer a:link, footer a:visited {
+        color: var(--base-font-color);
+    }
+    
+    .lastUpdated {
+        color: var(--last-updated-font-color);
+        font-size: 0.85em;
+    }
+    
