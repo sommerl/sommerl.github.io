@@ -20,9 +20,9 @@
     }
     
     html {
-        background-color: lavender;
+        background-color: #5D81BE;
         font-family: var(--heading-font);
-        color: var(--last-updated-font-color);
+        color: var(--base-font-color);
     }
 
     main {
