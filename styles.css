@@ -2,15 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 
     :root {
-        /*  FONTS  */
+        
         --heading-font: "Kufam";
         --paragraph-font: "Open Sans Condensed";    
     
-        /* PALETTE COLORS */
+       
         --base-font-color: #5D81BE;
-        --secondary-background-color: #D0EAF2;
-        --block-background-color: #83B4A6;
         --block-font-color: white;
+        --one-background-color: #D0EAF2;
+        --block-background-color: #83B4A6;
         --last-updated-font-color: #682F37;
     
         /* MEASUREMENTS */
