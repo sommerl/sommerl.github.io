@@ -37,4 +37,19 @@
         margin-top: 10px;
     }
 
+    footer {
+        text-align: center;
+    }
+    
+    header .block {
+        border-radius: var(--rounded-edges-block) var(--rounded-edges-block) 0em 0em;   
+    }
+    
+    footer .block {
+        border-radius: 0em 0em var(--rounded-edges-block) var(--rounded-edges-block);
+    }
+    
+    .student {
+        padding: 1px 0em 1px 5em;
+    }
     
