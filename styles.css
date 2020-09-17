@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 
 html {
-    background-color: #f1faee;
+    background-color: #1d3557;
 }
 
 header {
@@ -10,7 +10,7 @@ header {
     text-align: center;
     color: #a8dadc;
     border-radius: .5em;
-    background-color: #1d3557;
+    background-color: #a8dadc;
 }
 
 .lessons {
@@ -38,7 +38,7 @@ main {
 }
 
 body {
-    background-color: #1d3557;
+    background-color: #a8dadc;
     max-width: 700px;
     margin: auto;
     border-radius: .5em;
