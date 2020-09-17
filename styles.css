@@ -29,15 +29,10 @@
     }
 
     .studentPic {
-        float: right;
+        float: left;
         margin: 0.75em;
         box-shadow: 0px 0px 12px var(--primary-background-color);
         border-radius: 0.25em;
-    }
-
-    .lastUpdated {
-        color: var(--last-updated-font-color);
-        font-size: 0.85em;
     }
 
     .lessons {
@@ -46,7 +41,7 @@
         font-weight: 600;
     }
 
-    .block {
-        background-color: var(--block-background-color);
-        font-family: var(--block-font);
-        color: var(--block-font-color); 
+    .lastUpdated {
+        color: var(--last-updated-font-color);
+        font-size: 0.85em;
+    }
