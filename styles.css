@@ -7,11 +7,10 @@
         --paragraph-font: "Open Sans Condensed";    
     
         /* PALETTE COLORS */
-        --primary-background-color: #5D81BE;
+        --base-font-color: #5D81BE;
         --secondary-background-color: #D0EAF2;
         --block-background-color: #83B4A6;
         --block-font-color: white;
-        --base-font-color: #828D85;
         --last-updated-font-color: #682F37;
     
         /* MEASUREMENTS */
@@ -20,7 +19,7 @@
     }
     
     html {
-        background-color: var(--primary-background-color);
+        background-color: var(--secondary-background-color);
         font-family: var(--heading-font);
         color: var(--base-font-color);
     }
