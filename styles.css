@@ -21,7 +21,7 @@
     
     html {
         background-color: lavender;
-        font-family: ; var(--heading-font);
+        font-family: var(--heading-font);
         color: var(--base-font-color);
     }
 
