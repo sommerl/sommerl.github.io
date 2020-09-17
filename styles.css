@@ -22,3 +22,10 @@
         font-family: "Kufam";
         color: #5D81BE;
     }
+
+    body {
+        max-width: 700px;
+        margin: 0 auto;
+        background-color: #83B4A6;
+        border-radius: var(--rounded-edges-hidden);
+    }
