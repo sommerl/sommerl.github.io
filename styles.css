@@ -34,3 +34,8 @@
         box-shadow: 0px 0px 12px var(--primary-background-color);
         border-radius: 0.25em;
     }
+
+    .lastUpdated {
+        color: var(--last-updated-font-color);
+        font-size: 0.85em;
+    }
