@@ -1,8 +1,41 @@
-.student-pic {
-    max-width: 120px;
-    float: right;
-    border-radius: 10px;
-    box-shadow: #5B5B5D 5px 5px 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Kufam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+    :root {
+        /*  FONTS  */
+        --heading-font: "Kufam";
+        --paragraph-font: "Open Sans Condensed";    
+    
+        /* PALETTE COLORS */
+        --primary-background-color: #5D81BE;
+        --secondary-background-color: #D0EAF2;
+        --block-background-color: #83B4A6;
+        --block-font-color: white;
+        --base-font-color: #828D85;
+        --last-updated-font-color: #682F37;
+    
+        /* MEASUREMENTS */
+        --rounded-edges-hidden: 1em;
+        --rounded-edges-block: calc(var(--rounded-edges-hidden) - 0.2em);
+    }
+    
+    html {
+        background-color: lavender;
+        font-family: ; var(--heading-font);
+        color: var(--base-font-color);
+    }
+
+    main {
+        padding: 1em;
+    }
+
+    .student-pic {
+        max-width: 120px;
+        float: right;
+        border-radius: 10px;
+        box-shadow: #5B5B5D 5px 5px 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+    
