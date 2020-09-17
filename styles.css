@@ -17,4 +17,8 @@
         --rounded-edges-hidden: 1em;
         --rounded-edges-block: calc(var(--rounded-edges-hidden) - 0.2em);
     }
-    
+    html {
+        background-color: #D0EAF2;
+        font-family: "Kufam";
+        color: #5D81BE;
+    }
