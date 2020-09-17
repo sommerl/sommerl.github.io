@@ -20,7 +20,7 @@
     }
     
     html {
-        background-color: #5D81BE;
+        background-color: var(--primary-background-color);
         font-family: var(--heading-font);
         color: var(--base-font-color);
     }
