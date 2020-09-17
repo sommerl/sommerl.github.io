@@ -40,4 +40,13 @@
         font-size: 0.85em;
     }
 
-    
+    .lessons {
+        margin-top: 0.5em;
+        margin-bottom: em;
+        font-weight: 600;
+    }
+
+    .block {
+        background-color: var(--block-background-color);
+        font-family: var(--block-font);
+        color: var(--block-font-color); 
