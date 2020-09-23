@@ -5,6 +5,10 @@ html {
     background-color: #1d3557;
 }
 
+h1 {
+    font-size: 1.5rem;
+}
+
 header {
     font-family: "Kufam";
     text-align: center;
