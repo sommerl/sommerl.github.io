@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+:root{
+    --primary-color: #457b9d;
+    --secondary-color: #f1faee;
+    --background-color: #1d3557;
+
+    --heading-font: 'Kufam', cursive;
+    --paragraph-font: 'Open Sans Condensed', sans-serif;
+
+}
+
+html {
+    background-color
+}
