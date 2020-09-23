@@ -6,5 +6,11 @@
     footer {
         font-size: medium;
     }
+
+    .studentPic {
+        border-radius: .5em;
+        float: 
+        box-shadow: 0px 0px 8px #a8dadc;
+    }
     
 }
