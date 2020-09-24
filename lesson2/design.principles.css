@@ -32,6 +32,7 @@ h1 {
 .name {
     font-family: var(--heading-font);
     color: var(--background-color);
+}
 
 p {
     font-family: var(--paragraph-font);
@@ -53,7 +54,7 @@ footer {
     font-family: var(--paragraph-font);
 }
 
-footer a:link, footer a:visited{
+footer a:link, footer a:visited {
     color: var(--background-color);
 }
 
