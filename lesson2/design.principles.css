@@ -45,7 +45,7 @@ h2 {
 }
 
 header, footer {
-    background-color: var(--background-color);
+    background-color: var(--secondary-color);
     text-align: center;
     padding: 1em;
 }
@@ -60,7 +60,7 @@ footer a:link, footer a:visited {
 }
 
 main {
-    background-color: var(--secondary-color);
+    background-color: var(--background-color);
     display: grid;
     grid-template-columns: 1fr;
     padding: 1em;
