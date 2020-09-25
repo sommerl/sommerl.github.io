@@ -36,6 +36,7 @@ h1 {
 
 p {
     font-family: var(--paragraph-font);
+    color: var(--secondary-color);
 }
 
 h2 {
