@@ -36,12 +36,12 @@ h1 {
 
 p {
     font-family: var(--paragraph-font);
-    color: var(--secondary-color);
+    color: var(--background-color);
 }
 
 h2 {
     font-family: var(--heading-font);
-    color: var(--secondary-color);
+    color: var(--background-color);
 }
 
 header, footer {
@@ -60,7 +60,7 @@ footer a:link, footer a:visited {
 }
 
 main {
-    background-color: var(--background-color);
+    background-color: var(--secondary-color);
     display: grid;
     grid-template-columns: 1fr;
     padding: 1em;
