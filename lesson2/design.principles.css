@@ -26,12 +26,12 @@ img {
 
 h1 {
     font-family: var(--heading-font);
-    color: var(--background-color);
+    color: var(--secondary-color);
 }
 
 .name {
     font-family: var(--heading-font);
-    color: var(--background-color);
+    color: var(--secondary-color);
 }
 
 p {
