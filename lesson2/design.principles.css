@@ -71,6 +71,7 @@ section {
     border: 5px solid var(--secondary-color);
     font-family: var(--paragraph-font);
     max-width: 100%;
+    font-size: 15px;
 }
 
 #updated {
