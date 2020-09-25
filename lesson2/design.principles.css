@@ -45,7 +45,7 @@ h2 {
 }
 
 header, footer {
-    background-color: var(--secondary-color);
+    background-color: var(--background-color);
     text-align: center;
     padding: 1em;
 }
