@@ -26,7 +26,7 @@ img {
 
 h1 {
     font-family: var(--heading-font);
-    color: var(--secondary-color);
+    color: var(--background-color);
 }
 
 .name {
@@ -36,12 +36,12 @@ h1 {
 
 p {
     font-family: var(--paragraph-font);
-    color: var(--background-color);
+    color: var(--secondary-color);
 }
 
 h2 {
     font-family: var(--heading-font);
-    color: var(--background-color);
+    color: var(--secondary-color);
 }
 
 header, footer {
