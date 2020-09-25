@@ -26,7 +26,7 @@ img {
 
 h1 {
     font-family: var(--heading-font);
-    color: var(--secondary-color);
+    color: var(--background-color);
 }
 
 .name {
