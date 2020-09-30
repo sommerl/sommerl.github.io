@@ -75,7 +75,7 @@ section {
 }
 
 #updated {
-    color: white;
+    color: var(--background-color);
     font-size: 12px;
 }
 
