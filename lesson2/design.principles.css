@@ -80,7 +80,7 @@ section {
 
 @media only screen and (min-width: 32.5em) {
     main {
-        grid-template-columns: 2fr 2fr; 
+        grid-template-columns: 1fr 1fr; 
     }
 }
 
