@@ -62,7 +62,6 @@ footer a:link, footer a:visited {
 main {
     background-color: var(--background-color);
     display: grid;
-    grid-template-columns: 1fr;
     padding: 1em;
 }
 
@@ -81,16 +80,11 @@ section {
 
 @media only screen and (min-width: 32.5em) {
     main {
-        display: grid;
         grid-template-columns: 2fr 2fr; 
     }
 }
 
 @media only screen and (min-width: 50em) {
-    main{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
 
     h1 {
         font-size: 2.5rem;
