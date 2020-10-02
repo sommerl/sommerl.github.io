@@ -1,13 +1,13 @@
-.colors {
+.scheme {
     width: 100%;
     min-width: 350px;
     margin: auto;
     text-align: center;
   }
-  .colors th {
+  .scheme th {
     background-color: white;
   }
-  .colors td{
+  .scheme td{
     width: 25%;
     height: 3em;
   }
