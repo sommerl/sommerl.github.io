@@ -51,3 +51,7 @@ footer {
     color: var(--accent1-color);
     font-family: var(--paragraph-font);
 }
+
+footer a:link, footer a:visited {
+    color: white;
+}
