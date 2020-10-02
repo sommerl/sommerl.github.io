@@ -1,4 +1,4 @@
 function lastModified() {
-    document.write(document.lastModified);
-    }
-    lastModified()
+document.write(document.lastModified);
+}
+lastModified()
