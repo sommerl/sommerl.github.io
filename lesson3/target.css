@@ -90,5 +90,5 @@ nav a:link, nav a:visited {
     text-decoration: none;
 }
 nav a:hover {
-    color: var(--accent2-color);
+    color: var(--accent1-color);
 }
