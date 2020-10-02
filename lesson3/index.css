@@ -35,6 +35,32 @@ h1 {
     color: var(--primary-color);
 }
 
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header h1 {
+    color:var(--accent1-color);
+    font-size: 50px;
+}
+
+header, footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+footer {
+    color: var(--accent1-color);
+    font-family: var(--paragraph-font);
+}
+
+footer a:link, footer a:visited {
+    color: white;
+}
+
 nav {
     font-family: var(--heading-font);
     color: var(--background-color);
