@@ -1,0 +1,13 @@
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+  }
+  .colors th {
+    background-color: white;
+  }
+  .colors td{
+    width: 25%;
+    height: 3em;
+  }
