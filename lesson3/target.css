@@ -44,6 +44,9 @@ h3{
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
+
+li{
+    font-family: var(--paragraph-font);
 }
 
 header h1 {
