@@ -55,3 +55,25 @@ footer {
 footer a:link, footer a:visited {
     color: white;
 }
+
+nav {
+    font-family: var(--heading-font);
+    color: var(--background-color);
+    font-weight: bold;
+    font-size: 20px;
+}
+nav ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+    background: var(--secondary-color);
+    padding: 2em;
+    border-radius: 10px;
+}
+nav a:link, nav a:visited {
+    color: var(--background-color);
+    text-decoration: none;
+}
+nav a:hover {
+    color: var(--accent2-color);
+}
