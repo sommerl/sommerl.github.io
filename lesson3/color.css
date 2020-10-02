@@ -4,6 +4,9 @@
     --primary-color: #03045E;
     --secondary-color: #0077B6;
     --accent1-color: #999999;
+
+    --heading-font: 'Sansita Swashed', cursive;
+    --paragraph-font: 'PT Sans', sans-serif;
 }
 .scheme {
     width: 100%;
