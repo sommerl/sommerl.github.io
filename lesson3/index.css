@@ -15,7 +15,7 @@ html{
 }
 
 body {
-    margin: o auto;
+    margin: 0 auto;
     background-color: var(--accent1-color);
     max-width: 80%;
 }
