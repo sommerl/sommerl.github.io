@@ -15,7 +15,7 @@ html{
 }
 
 body {
-    margin: auto 0;
+    margin: 0 auto;
     background-color: var(--accent1-color);
     max-width: 80%;
 }
@@ -43,11 +43,6 @@ h2 {
 h3{
     font-family: var(--heading-font);
     color: var(--primary-color);
-}
-
-li{
-    font-family: var(--paragraph-font);
-    color: var(--secondary-color);
 }
 
 header h1 {
