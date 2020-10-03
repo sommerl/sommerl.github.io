@@ -66,6 +66,10 @@ footer a:link, footer a:visited {
     color: white;
 }
 
+li{
+    font-family: var(--paragraph-font)
+}
+
 nav {
     font-family: var(--heading-font);
     color: var(--background-color);
