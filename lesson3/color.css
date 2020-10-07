@@ -10,7 +10,7 @@
 }
 
 html{
-    background-color: #BCF8EC;
+    background-color: var(--background-color);
 }
 
 body {
