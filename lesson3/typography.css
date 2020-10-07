@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Sansita+Swashed:wght@300&display=swap');
 :root {
-    --primary-color: #03045E;
+    --primary-color: #BCF8EC;
     --secondary-color: #0077B6;
-    --accent1-color: #EEFFCC;
+    --accent1-color: #03045E;
     --background-color: white;
 
     --heading-font: 'Sansita Swashed', cursive;
