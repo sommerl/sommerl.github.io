@@ -10,12 +10,12 @@
 }
 
 html{
-    background-color: white;
+    background-color: #BCF8EC;
 }
 
 body {
     margin: 0 auto;
-    background-color: var(--backround-color);
+    background-color: var(--accent1-color);
     max-width: 80%;
 }
 
