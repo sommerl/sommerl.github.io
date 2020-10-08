@@ -105,3 +105,8 @@ nav a:hover {
     background-color: #4CAF50; /* Add a green color to the "active/current" link */
     color: white;
   }
+  .logo-box {
+    background-color: white;
+    border-radius: 50px 50px 0 0 ;   
+    padding: 0.5em;
+    border: 1px solid #79CFD9;
