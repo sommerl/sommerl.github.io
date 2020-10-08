@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Sansita+Swashed:wght@300&display=swap');
+:root {
+    --primary-color: #03045E;
+    --secondary-color: #00507A;
+    --accent1-color: white;
+    --background-color: #BCF8EC;
+
+    --heading-font: 'Sansita Swashed', cursive;
+    --paragraph-font: 'PT Sans', sans-serif;
+}
+
+html{
+    background-color: var(--background-color);
+}
+
+body {
+    margin: 0 auto;
+    background-color: var(--accent1-color);
+    max-width: 80%;
+}
+
+main {
+    padding: 1em;
+    border-radius: 10px;
+}
+
+p {
+    font-family: var(--paragraph-font);
+    color: var(--secondary-color);
+}
+
+h1 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header h1 {
+    color:var(--accent1-color);
+    font-size: 50px;
+}
+
+header h2 {
+    color: var(--accent1-color);
+}
+
+header, footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+footer {
+    color: var(--accent1-color);
+    font-family: var(--paragraph-font);
+}
+
+footer a:link, footer a:visited {
+    color: white;
+}
+
+nav {
+    font-family: var(--heading-font);
+    color: var(--background-color);
+    font-weight: bold;
+    font-size: 20px;
+}
+nav ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+    background: var(--secondary-color);
+    padding: 2em;
+    border-radius: 10px;
+}
+nav a:link, nav a:visited {
+    color: var(--background-color);
+    text-decoration: none;
+}
+nav a:hover {
+    color: var(--primary-color);
+}
