@@ -93,7 +93,7 @@ nav a:hover {
     background-color: #eee; /* Grey background color */
     color: black; /* Black text color */
     display: block; /* Make the links appear below each other */
-    padding: 12px; /* Add some padding */
+    padding: 30px; /* Add some padding */
     text-decoration: none; /* Remove underline from links */
   }
   
@@ -102,12 +102,6 @@ nav a:hover {
   }
   
   .vertical-menu a.active {
-    background-color: #4CAF50; /* Add a green color to the "active/current" link */
+    background-color: var(--primary-color); /* Add a green color to the "active/current" link */
     color: white;
-  }
-  .logo-box {
-    background-color: white;
-    border-radius: 50px 50px 0 0 ;   
-    padding: 0.5em;
-    border: 1px solid #79CFD9;
   }
