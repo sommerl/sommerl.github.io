@@ -106,12 +106,12 @@ nav a:hover {
     color: white;
   }
   
-  .contentbox {
-      display: block;
-      margin: 10px auto;
-      border: 1 px dashed var(--primary-color);
-      color: var(--secondary-color);
-      font-family: var(--paragraph-font);
+  .content {
+    font-family: var(--paragraph-font);
+    border: 1px dashed var(--primary-color);
+    padding: .6rem;
+    margin: 1.6rem;
+    background-color: var(--lightback-color);
   }
 
   br.responsive{
