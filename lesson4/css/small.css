@@ -117,3 +117,12 @@ nav a:hover {
   br.responsive{
     display: inline;
 }
+
+.moto {
+    font-style: italic;
+    letter-spacing: 1pt;
+    color: var(--secondary-color);
+    margin-left: 20px;
+    font-size: 1em;
+    font-family: var(--paragraph-font);
+}
