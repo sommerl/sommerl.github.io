@@ -105,3 +105,11 @@ nav a:hover {
     background-color: var(--primary-color); /* Add a green color to the "active/current" link */
     color: white;
   }
+  
+  .contentbox {
+      display: block;
+      margin: 10px auto;
+      border: 1 px dashed var(--primary-color);
+      color: var(--secondary-color);
+      font-family: var(--paragraph-font);
+  }
