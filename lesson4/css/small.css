@@ -126,3 +126,5 @@ nav a:hover {
     font-size: 1em;
     font-family: var(--paragraph-font);
 }
+
+nav ul.hide {display: none;}
