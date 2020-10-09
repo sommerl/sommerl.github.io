@@ -9,6 +9,13 @@
     --paragraph-font: 'PT Sans', sans-serif;
 }
 
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
 html{
     background-color: var(--background-color);
 }
@@ -85,26 +92,6 @@ nav a:link, nav a:visited {
 nav a:hover {
     color: var(--primary-color);
 }
-.vertical-menu {
-    width: 200px; /* Set a width if you like */
-  }
-  
-  .vertical-menu a {
-    background-color: #eee; /* Grey background color */
-    color: black; /* Black text color */
-    display: block; /* Make the links appear below each other */
-    padding: 12px; /* Add some padding */
-    text-decoration: none; /* Remove underline from links */
-  }
-  
-  .vertical-menu a:hover {
-    background-color: #ccc; /* Dark grey background on mouse-over */
-  }
-  
-  .vertical-menu a.active {
-    background-color: var(--primary-color); /* Add a green color to the "active/current" link */
-    color: white;
-  }
   
   .content {
     font-family: var(--paragraph-font);
