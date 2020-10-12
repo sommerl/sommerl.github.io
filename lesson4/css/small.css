@@ -62,7 +62,8 @@ header {
 header, footer {
     background-color: var(--primary-color);
     text-align: center;
-    padding: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
    
 }
 
