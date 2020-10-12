@@ -1,7 +1,7 @@
 @media only screen and (min-width: 46em) {
     
     nav {
-        background: var(--primary-color); /* Old browsers */
+        background: var(--primary-color);
         
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', endColorstr='#aa0000',GradientType=0 );
         
@@ -28,7 +28,7 @@
     }
 
     header img {
-        width: 35%;
+        width: 50%;
     }
     h2 {
         font-size: 15px;
