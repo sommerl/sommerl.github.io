@@ -79,7 +79,7 @@ footer a:link, footer a:visited {
 nav button {
     background-color: transparent;
     border: none;
-    color: var(--background-color-color)
+    color: var(--secondary-color);
 }
 nav {
     font-family: var(--heading-font);
