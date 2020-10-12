@@ -26,7 +26,8 @@ body {
 
 main {
     padding: 1em;
-    border-radius: 10px;
+    background-color: var(--accent1-color);
+    
 }
 
 p {
@@ -136,4 +137,6 @@ nav ul.hide {display: none;}
     display: table;
     clear: both;
 }
-
+html, body{
+    background-color: var(--primary-color);
+  }
