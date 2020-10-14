@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Preston Town Page</title>
+        <meta name="description" content="My Weather Site">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+    <body>
+        <header>
+            <picture>
+            <img src="images/weatherlogoresize.png" alt="weather logo">
+            </picture>
+            <section class="heading">
+            <h1>Right On Weather</h1>
+            <div class="moto">Where it's always "Right On"</div>
+        </section>
+        </header>
+            <nav class="clearfix">
+                <button onclick="toggleMenu()">&#9776; Menu</button>
+                <ul id="mainNav" class="hide">
+                    <li><a href="#">Home</a></li>
+                    <li class="active"><a href="#">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a href="#">Storm Center</a></li>
+                    <li><a href="#">Gallery</a></li>
+                </ul>
+            </nav>
+        <main>
+            <h2>Preston, Idaho</h2>
+            <div class="content">Hero w/ weather summary</div>
+            <div class="content">5 Day Forecast</div>
+            <div class="content">Article</div>
+            <div class="content">Contact Information</div>
+        </main>
+        <footer>
+            <div class="lastInfo"></div>
+                &#169; Right On Weather | Attributions | <br class='responsive'> Laura Sommer
+                <div id="updated">
+                </div>
+        </footer>
+        <script src="js/file.js"></script>
+    </body>
+</html>
