@@ -176,3 +176,11 @@ html, body{
     height: 300px;
     width: 883px;
   }
+
+  .herodiv h3{
+      font-family: var(--heading-font);
+  }
+
+  .herodiv p{
+      font-family: var(--paragraph-font);
+  }
