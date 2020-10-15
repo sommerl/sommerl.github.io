@@ -157,7 +157,7 @@ html, body{
   .herodiv {
       margin: 10px auto;
       position: relative;
-      border: 1px dashed blue;
+      border: 1px dashed var(--primary-color);
       width: 885px;
       height: 300px;
   }
@@ -166,8 +166,8 @@ html, body{
       position: absolute;
       top: 50px;
       left: 50px;
-      background: radial-gradient(blue, lightblue);
-      border: 1px solid blue;
+      background: radial-gradient var(--background-color);
+      border: 1px solid var(--primary-color);
       padding: .5rem;
       box-shadow: 0 0 30px #777;
   }
