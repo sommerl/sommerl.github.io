@@ -145,3 +145,29 @@ nav ul.hide {display: none;}
 html, body{
     background-color: var(--primary-color);
   }
+
+  .hero.ph{
+      margin: 10px auto;
+      background-color: #eee;
+      border: 1px solid #333;
+      width: 98%;
+      height: 250px;
+  }
+
+  .herodiv {
+      margin: 10px auto;
+      position: relative;
+      border: 1px dashed blue;
+      width: 960px;
+      height: 300px;
+  }
+
+  .weathersummary {
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      background: radial-gradient(blue, lightblue);
+      border: 1px solid blue;
+      padding: .5rem;
+      box-shadow: 0 0 30px #777;
+  }
