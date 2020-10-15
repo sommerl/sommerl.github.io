@@ -164,8 +164,8 @@ html, body{
 
   .weathersummary {
       position: absolute;
-      top: 50px;
-      left: 50px;
+      top: 2em;
+      left: 2em;
       background: radial-gradient(#03045E, #BCF8EC);
       border: 1px solid var(--primary-color);
       padding: .5rem;
