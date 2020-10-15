@@ -191,3 +191,11 @@ html, body{
 .weather-image{
     align-items: center;
 }
+
+.forecast {
+      margin: 10px auto;
+      position: relative;
+      border: 1px dashed var(--primary-color);
+      width: 960px;
+      height: 300px;
+}
