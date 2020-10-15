@@ -171,3 +171,8 @@ html, body{
       padding: .5rem;
       box-shadow: 0 0 30px #777;
   }
+
+  .banner-image{
+    height: 300px;
+    width: 883px;
+  }
