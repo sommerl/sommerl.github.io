@@ -286,7 +286,6 @@ h3 {
   }
 
   #big-banner {
-    /* Other styles */
-    display: none;
     color: white;
+    font-family: var(--paragraph-font);
     }
