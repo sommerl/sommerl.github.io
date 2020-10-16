@@ -204,6 +204,7 @@ html, body{
 td {
         padding: 26px;
         font-family: var(--paragraph-font);
+        color: var(--primary-color);
       }
 
 table {
