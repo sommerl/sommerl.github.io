@@ -270,9 +270,10 @@ h3 {
 
   .social{
     float: right;
-    padding-top:175px;
-    padding-left:80px;
-    padding-right:100px
+    padding-top:1px;
+    padding-left: 190px;
+    height: 400px;
+    width: 500px;
   }
 
   .social h3{
