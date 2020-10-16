@@ -223,8 +223,10 @@ h3 {
     color: var(--primary-color)
   }
 
-  article.div{
-      width: 960px;
-      height: 500px;
-      background-color: lightgrey;
-  }
+.article{
+    margin: 10px auto;
+    position: relative;
+    border: 3px solid var(--primary-color);
+    width: 960px;
+    height: 550px;
+    background-color: lightgrey;
