@@ -202,13 +202,19 @@ html, body{
 }
 
 td {
-        padding: 26px;
-        font-family: var(--paragraph-font);
-        color: var(--primary-color);
-      }
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+    padding:px;
+
+    }
+
+    
+th, td {
+border: .5px solid var(--primary-color);
+
+}
 
 table {
-        border-collapse: separate;
-        border-spacing: 40px 15px;
-      }
-      
+border-collapse: separate;
+border-spacing: 41px 13px;;
+}
