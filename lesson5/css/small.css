@@ -200,6 +200,6 @@ html, body{
       height: 150px;
 }
 
-.forecast-table th td{
+.forecast-table{
         border: 1px solid var(--primary-color);
       }
