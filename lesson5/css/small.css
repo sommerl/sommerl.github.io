@@ -197,7 +197,7 @@ html, body{
       position: relative;
       border: 1px dashed var(--primary-color);
       width: 600px;
-      height: 150px;
+      height: 220px;
       background-color: lightgrey;
 }
 
@@ -216,3 +216,9 @@ table {
 border-collapse: separate;
 border-spacing: 41px 13px;
 }
+
+h3 {
+    font-family: var(--heading-font);
+    font-size: 20px;
+    color: var(--primary-color)
+  }
