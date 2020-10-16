@@ -205,3 +205,9 @@ td {
         padding: 26px;
         font-family: var(--paragraph-font);
       }
+
+table {
+        border-collapse: separate;
+        border-spacing: 40px 15px;
+      }
+      
