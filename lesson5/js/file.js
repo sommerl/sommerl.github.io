@@ -13,3 +13,10 @@ function updateBox(){
 function toggleMenu(){
     document.getElementById("mainNav").classList.toggle("hide");
 }
+
+var dayOfWeek = new Date().getDay() // This gives us a number (1-7)
+
+if (dayOfWeek == 5) {
+    document.getElementById("big-banner").style.display = "block";
+    }
+    
