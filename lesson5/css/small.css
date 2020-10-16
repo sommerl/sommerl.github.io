@@ -274,6 +274,11 @@ h3 {
     padding-left:80px;
     padding-right:100px
   }
+
+  .social h3{
+    color: var(--accent1-color)
+  }
+  
   .contactinfo{
     float: right;
     padding-right: 100px;
