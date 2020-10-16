@@ -273,3 +273,8 @@ h3 {
     padding-top:50px;
     padding-right: 100px;
   }
+
+  .contactinfo{
+    float: right;
+    padding-right: 100px;
+  }
