@@ -256,3 +256,7 @@ h3 {
   .contactmap{
       background-color: var(--secondary-color);
   }
+
+  .contactinfo p{
+    color: white;
+  }
