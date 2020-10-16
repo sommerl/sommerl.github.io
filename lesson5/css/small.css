@@ -251,12 +251,25 @@ h3 {
   .prestonmap{
     float: left;
     padding-left: 15px;
+    padding-top: 13px
   }
 
   .contactmap{
       background-color: var(--secondary-color);
+      height: 300px
   }
 
   .contactinfo p{
     color: white;
+  }
+
+  .contactinfo h3{
+    color: white;
+    padding-top:20px;
+  }
+
+  .social{
+    float: right;
+    padding-top:50px;
+    padding-right: 100px;
   }
