@@ -195,7 +195,7 @@ html, body{
 .forecast {
       margin: 10px auto;
       position: relative;
-      border: 1px dashed var(--primary-color);
+      border: 3px dashed var(--primary-color);
       width: 600px;
       height: 220px;
       background-color: lightgrey;
