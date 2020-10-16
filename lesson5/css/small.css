@@ -205,16 +205,14 @@ td {
     font-family: var(--paragraph-font);
     color: var(--primary-color);
     padding:px;
-
     }
 
     
 th, td {
 border: .5px solid var(--primary-color);
-
 }
 
 table {
 border-collapse: separate;
-border-spacing: 41px 13px;;
+border-spacing: 41px 13px;
 }
