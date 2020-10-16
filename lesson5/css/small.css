@@ -271,9 +271,9 @@ h3 {
   .social{
     float: right;
     padding-top:175px;
-    padding-right: 100px;
+    padding-left:80px;
+    padding-right:100px
   }
-
   .contactinfo{
     float: right;
     padding-right: 100px;
