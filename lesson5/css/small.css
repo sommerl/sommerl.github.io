@@ -288,4 +288,5 @@ h3 {
   #big-banner {
     color: white;
     font-family: var(--paragraph-font);
+    display: none;
     }
