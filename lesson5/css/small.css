@@ -241,3 +241,9 @@ h3 {
 .article p{
     padding-left: 10px;
   }
+
+  .articlepic{
+    width: 350px;
+    float: right;
+    padding-right: 15px
+  }
