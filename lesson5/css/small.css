@@ -252,3 +252,7 @@ h3 {
     float: left;
     padding-left: 15px;
   }
+
+  .contactmap{
+      background-color: var(--secondary-color);
+  }
