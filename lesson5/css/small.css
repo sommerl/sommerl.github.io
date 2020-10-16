@@ -201,10 +201,7 @@ html, body{
       background-color: lightgrey;
 }
 
-.forecast-table{
-        border: 1px solid var(--primary-color);
-      }
-
 td {
         padding: 26px;
+        font-family: var(--paragraph-font);
       }
