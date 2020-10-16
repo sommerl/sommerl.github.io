@@ -204,7 +204,7 @@ html, body{
 td {
     font-family: var(--paragraph-font);
     color: var(--primary-color);
-    padding:px;
+    background-color: white;
     }
 
     
