@@ -193,34 +193,9 @@ html, body{
     align-items: center;
 }
 
-.forecast {
-      margin: 10px auto;
-      position: relative;
-      border: 3px dashed var(--primary-color);
-      width: 600px;
-      height: 220px;
-      background-color: lightgrey;
-}
-
-.forecast h3 {
-    text-align: center;
+.forecast{
+    display: none;
   }
-
-td {
-    font-family: var(--paragraph-font);
-    color: var(--primary-color);
-    background-color: white;
-    }
-
-    
-th, td {
-border: .5px solid var(--primary-color);
-}
-
-table {
-border-collapse: separate;
-border-spacing: 41px 13px;
-}
 
 h3 {
     font-family: var(--heading-font);
