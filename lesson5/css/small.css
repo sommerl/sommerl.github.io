@@ -219,8 +219,7 @@ h3 {
 
   .articlepic{
     width: 350px;
-    float: right;
-    padding-right: 15px
+   padding-left: 20px;
   }
 
   .prestonmap{

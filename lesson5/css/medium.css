@@ -70,4 +70,10 @@
   border-collapse: separate;
   border-spacing: 41px 13px;
   }
+
+  .articlepic{
+    width: 350px;
+    float: right;
+    padding-right: 15px
+  }
 }
