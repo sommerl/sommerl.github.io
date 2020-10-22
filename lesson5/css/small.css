@@ -203,8 +203,8 @@ html, body{
 }
 
 .forecast h3 {
-    align-items: center;
-}
+    text-align: center;
+  }
 
 td {
     font-family: var(--paragraph-font);
