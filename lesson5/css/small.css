@@ -27,6 +27,7 @@ body {
 main {
     padding: 1em;
     background-color: var(--accent1-color);
+    max-width: 960px;
     
 }
 
@@ -158,8 +159,7 @@ html, body{
       margin: 10px auto;
       position: relative;
       border: 1px dashed var(--primary-color);
-      width: 960px;
-      height: 300px;
+
       
   }
 
@@ -175,8 +175,8 @@ html, body{
   }
 
   .banner-image{
-    height: 300px;
-    width: 960px;
+    height: auto;
+    width: 100%;
   }
 
   .herodiv h3{
