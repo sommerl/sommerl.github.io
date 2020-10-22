@@ -27,7 +27,7 @@ body {
 main {
     padding: 1em;
     background-color: var(--accent1-color);
-    max-width: 960px;
+    max-width: 100%;
     
 }
 
@@ -274,9 +274,7 @@ h3 {
   .social{
     float: right;
     padding-top:1px;
-    padding-left: 190px;
-    height: 20px;
-    width: 500px;
+    padding-right: 100px;
   }
 
   .social h3{
