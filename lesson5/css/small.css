@@ -193,10 +193,6 @@ html, body{
     align-items: center;
 }
 
-.forecast{
-    display: none;
-  }
-
 h3 {
     font-family: var(--heading-font);
     font-size: 20px;
