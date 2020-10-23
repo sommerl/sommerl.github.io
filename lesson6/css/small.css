@@ -159,7 +159,6 @@ html, body{
   .herodiv {
       margin: 10px auto;
       position: relative;
-      border: 1px dashed var(--primary-color);
 
       
   }
