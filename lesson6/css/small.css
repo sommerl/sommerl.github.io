@@ -287,6 +287,18 @@ h3 {
         display: none;
       }
   
+      .value {
+        color: white;
+        font-family: var(--paragraph-font);
+    }
+        .value:after{
+            content: "\A";
+            white-space: pre;
+        }
     
+        .weathersummary{
+          font-family: var(--paragraph-font);
+          color: white;
+        }
   
   
