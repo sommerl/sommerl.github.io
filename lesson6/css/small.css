@@ -159,6 +159,7 @@ html, body{
   .herodiv {
       margin: 10px auto;
       position: relative;
+      padding-left: 60px;
 
       
   }
