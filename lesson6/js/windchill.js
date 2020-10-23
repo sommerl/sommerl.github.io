@@ -13,4 +13,6 @@ function doInputOutput () {
     
     var itFeelsLike = 35.74 + 0.6215 * t -35.75* a + .4275 * t * a;
     var a = Math.pow(v,.16);
+
+    return itFeelsLike;
     }
