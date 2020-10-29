@@ -234,3 +234,7 @@ html, body{
           justify-items: center;
           grid-template-columns: 1fr;
         }
+
+        .contactmap {
+          font-family: var(--heading-font);
+        }
