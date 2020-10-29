@@ -233,6 +233,7 @@ html, body{
           display: grid;
           justify-items: center;
           grid-template-columns: 1fr;
+          grid-gap: 10px;
         }
 
         .contactmap {
