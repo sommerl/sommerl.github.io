@@ -42,41 +42,6 @@
         font-size: .8em;
     }
 
-    .forecast {
-        margin: 10px auto;
-        position: relative;
-        border: 3px dashed var(--primary-color);
-        width: 600px;
-        height: 220px;
-        background-color: lightgrey;
-  }
-  
-  .forecast h3 {
-      text-align: center;
-    }
-  
-  td {
-      font-family: var(--paragraph-font);
-      color: var(--primary-color);
-      background-color: white;
-      }
-  
-      
-  th, td {
-  border: .5px solid var(--primary-color);
-  }
-  
-  table {
-  border-collapse: separate;
-  border-spacing: 41px 13px;
-  }
-
-  .articlepic{
-    width: 350px;
-    float: right;
-    padding-right: 15px
-  }
-
   .contactmap{
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
