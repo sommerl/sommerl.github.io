@@ -1,32 +1,56 @@
-const imagesToLoad = document.querySelectorAll("img[data-src]");
+const pictures = document.querySelectorAll('.boxbox');
 
-const imgOptions = {
-    threshold: 0,
-    rootMargin: "0px 0px 50px 0px"
-};
+function preloadPicture(picture) {
+    const images = picture.querySelectorAll('[data-src]');
+    const sources =picture.querySelectorAll('[data-srcset]')
 
-const loadImages = (image) => {
- image.setAttribute('src', image.getAttribute('data-src'));
- image.onLoad = () => {image.removeAttribute('data-src');};
-};
+    images.forEach(img => {
+        preloadImage(img);
+     })
 
-if('IntersectionObserver' in window) {
-    const observer = new IntersectionObserver((items, observer) => {
-      items.forEach((item) => {
-        if(item.isIntersecting) {
-          loadImages(item.target);
-          observer.unobserve(item.target);
+     sources.forEach(source => {
+         preloadSource(source);
+     })
+}
+
+function preloadImage(img) {
+    const src = img.getAttribute("data-src");
+    if (!src){
+        return;
+    }
+    img.src = src;
+    img.removeAttribute('data-src');
+}
+
+function preloadSource(source) {
+    const srcset = source.getAttribute("data-srcset");
+    if (!srcset){
+        return;
+    }
+
+    const picOptions = {
+        threshold: 0,
+        rootMargin: "0px 0px 50px 0px"
+    };
+
+    source.srcset = srcset;
+    source.removeAttribute('data-srcset')
+}
+
+const picObserver = new IntersectionObserver((entries, imgObserver) => {
+    entries.forEach(entry => {
+        if (!entry.isIntersecting) {
+            return;
+        } else {
+            preloadPicture(entry.target);
+            imgObserver.unobserve(entry.target);
         }
-      });
-    });
-    imagesToLoad.forEach((img) => {
-      observer.observe(img);
-    });
-  } else {
-    imagesToLoad.forEach((img) => {
-      loadImages(img);
-    });
-  }
+    })
+}, picOptions);
+
+pictures.forEach(picture => {
+    picObserver.observe(picture);
+})
 
   window.onload = updateBox;
 
