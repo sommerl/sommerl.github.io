@@ -239,3 +239,19 @@ html, body{
         .contactmap {
           font-family: var(--heading-font);
         }
+
+        /*Gallery Page Specific CSS*/
+
+        img {
+          width: 100%
+        }
+
+        figure {
+          border-radius: 20px;
+          box-shadow: 5px 1px 5px 1px gray;
+        }
+
+        figcaption {
+          padding: 5px;
+          font-family: var(--paragraph-font);
+        }
