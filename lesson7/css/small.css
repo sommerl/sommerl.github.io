@@ -246,7 +246,7 @@ html, body{
           width: 100%
         }
 
-        .gallery picture {
+        .gallery img {
           border-radius: 20px;
           box-shadow: 14px 14px 5px 1px gray;
         }
