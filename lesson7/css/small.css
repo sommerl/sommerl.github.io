@@ -229,7 +229,7 @@ html, body{
           color: white;
         }
   
-        .main {
+        .container {
           display: grid;
           justify-items: center;
           grid-template-columns: 1fr;
@@ -242,7 +242,7 @@ html, body{
 
         /*Gallery Page Specific CSS*/
 
-        img {
+        .container img {
           width: 100%
         }
 
