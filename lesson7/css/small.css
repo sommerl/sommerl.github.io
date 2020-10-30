@@ -246,9 +246,9 @@ html, body{
           width: 100%
         }
 
-        figure {
+        .gallery picture {
           border-radius: 20px;
-          box-shadow: 5px 1px 5px 1px gray;
+          box-shadow: 14px 14px 5px 1px gray;
         }
 
         figcaption {
