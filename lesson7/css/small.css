@@ -251,7 +251,4 @@ html, body{
           box-shadow: 14px 14px 5px 1px gray;
         }
 
-        figcaption {
-          padding: 10px;
-          font-family: var(--paragraph-font);
-        }
+        
