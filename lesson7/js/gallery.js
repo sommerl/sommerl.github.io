@@ -1,5 +1,5 @@
 
-const imagesToLoad = document.querySelectorAll("img[data-src]");
+const pictures = document.querySelectorAll("img[data-src]");
 
 const imgOptions = {
     threshold: 0,
