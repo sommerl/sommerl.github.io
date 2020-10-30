@@ -51,6 +51,9 @@ pictures.forEach(picture => {
   picObserver.observe(picture);
 })
 
+
+/*menu and date javascript*/
+
   window.onload = updateBox;
 
 function updateBox(){
