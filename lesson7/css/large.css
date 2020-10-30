@@ -36,4 +36,8 @@
     h2 {
         font-size: 20px;
     }
+
+    .main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
