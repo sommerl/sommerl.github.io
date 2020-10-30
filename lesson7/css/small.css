@@ -255,4 +255,13 @@ html, body{
           font-family: var(--paragraph-font);
         }
 
+        #big-banner {
+          background-color: var(--secondary-color);
+          font-size: 30px; 
+          font-family: var(--paragraph-font);
+          text-align: center;
+          width: 500px;
+        }
+
+
         
