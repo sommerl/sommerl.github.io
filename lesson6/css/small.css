@@ -300,5 +300,11 @@ h3 {
           font-family: var(--paragraph-font);
           color: white;
         }
+
+        .herobannerimg{
+          height: auto;
+          width: 100%;
+        }
+      
   
   
