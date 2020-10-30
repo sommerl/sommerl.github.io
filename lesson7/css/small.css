@@ -252,6 +252,6 @@ html, body{
         }
 
         figcaption {
-          padding: 5px;
+          padding: 10px;
           font-family: var(--paragraph-font);
         }
