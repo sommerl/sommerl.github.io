@@ -44,11 +44,11 @@
         grid-gap: 10px;
       }
 
-      .container img {
+      .container img:hover {
         border-radius: 20px;
         box-shadow: 14px 14px 5px 1px gray;
       }
-
+      
       figcaption {
         padding-top: 20px;
         color: var(--primary-color)
