@@ -34,3 +34,15 @@ tfoot {
     color: white;
 }
 
+tr:nth-child(3) {
+    background-color: #e7ffed;
+  }
+  
+  tr:nth-child(5) {
+    background-color: #e7ffed;
+  }
+  
+  tr:nth-child(7) {
+    background-color: #e7ffed;
+  }
+
