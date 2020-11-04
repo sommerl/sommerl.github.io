@@ -9,12 +9,16 @@ table {
     margin-right: auto;
 }
 
-.tableheader {
+thead {
     background-color: #7fb9c2;
-    font-size: 25px;
+    font-size: 20px;
 }
 
-.tablefooter {
+tbody {
+    background-color: #e7f0ed;
+}
+
+tfoot {
     background-color: #7fb9c2;
     font-size: 12px;
 }
@@ -29,6 +33,3 @@ table {
     color: white;
 }
 
-td {
-    background-color: #e7f0ed;
-}
