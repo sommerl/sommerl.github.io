@@ -3,6 +3,8 @@
 table {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
+    border-collapse: collapse;
+    box-shadow: 8px 8px 10px #628ca6;
 }
 
 .center {
