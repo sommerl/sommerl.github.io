@@ -46,3 +46,7 @@ tr:nth-child(3) {
     background-color: #e7ffed;
   }
 
+  th, td {
+    padding: 5px;
+  }
+
