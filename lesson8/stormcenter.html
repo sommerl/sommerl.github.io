@@ -61,7 +61,7 @@
             <label><input type="date" name="stormdate"></label>
 
             <div>Storm Severity</div>
-            <label class="flexly" for="rating">Rating: &nbsp;&nbsp;&nbsp;
+            <label class="sbs" for="rating">Rating: &nbsp;&nbsp;&nbsp;
 				<input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
 				<span id="ratingvalue">5</span>
 			</label>
@@ -78,6 +78,16 @@
 				<option value="9">
 				<option value="10">
 			</datalist>
+            
+            <div>Storm Region</div>
+            <label class="sbs">Region
+                <select name="stormregion">
+                    <option value="">Select Region</option>
+                    <option value="preston">Preston</option>
+                    <option value="sodasprings">Soda Springs</option>
+                    <option value="fishhaven">Fish Haven</option>
+                </select>
+            </label>
 
             
         </fieldset>
