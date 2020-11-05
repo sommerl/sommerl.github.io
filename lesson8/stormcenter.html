@@ -37,13 +37,18 @@
             <h1>Storm Center Report</h1>
     <form method="get" action="thanks.html">
         <fieldset>
-            <legend>Applicant Information</legend>
+            <legend>Contact Information</legend>
             <label class="top">First Name* <input type="text" name="fname" required></label>
             <label class="top">Last Name* <input type="text" name="lname" required></label>
             <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
             <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
             <label class="top">Zip Code* <input type="number" name="number" placeholder="11111"></label>
-            <label class="top">Storm Date 
+        </fieldset>
+
+        <fieldset>
+            <legend>Storm Type</legend>
+            <div>Storm</div>
+            <label class="sbs">Storm Date 
                 <select name="stormtype">
                     <option value="">Please Select &#9662;</option>
                     <option value="flashflood">Flash Flood</option>
@@ -52,14 +57,6 @@
                     <option value="thunderstorm">Thunderstorm</option>
                     <option value="tornado">Tornado</option>
                 </select>
-        </fieldset>
-
-        <fieldset>
-            <legend>Course Information</legend>
-            <div>Audience</div>
-            <label class="sbs"><input type="radio" name="audience" value="beginner"> Beginner</label>
-            <label class="sbs"><input type="radio" name="audience" value="intermediate"> Intermediate</label>
-            <label class="sbs"><input type="radio" name="audience" value="advanced"> Advanced</label>
 
             <div>Software Needed</div>
             <label><input type="checkbox" name="editing" value="yes"> Photo Editing</label>
