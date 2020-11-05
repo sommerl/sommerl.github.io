@@ -160,6 +160,7 @@ form legend {
   color: var(--primary-color);
   margin: 0 1rem;
   padding: 0 .5rem;
+  font-size: 18px;
 }
 
 form label.top, form div {
