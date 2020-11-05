@@ -34,15 +34,24 @@
                 </ul>
             </nav>
         <main>
-            <h1>Course Proposal Application</h1>
+            <h1>Storm Center Report</h1>
     <form method="get" action="thanks.html">
         <fieldset>
             <legend>Applicant Information</legend>
             <label class="top">First Name* <input type="text" name="fname" required></label>
             <label class="top">Last Name* <input type="text" name="lname" required></label>
-            <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
             <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-            <label class="top">Website <input type="url" name="url" placeholder="http://"></label>
+            <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+            <label class="top">Zip Code* <input type="number" name="number" placeholder="11111"></label>
+            <label class="top">Storm Date 
+                <select name="stormtype">
+                    <option value="">Please Select &#9662;</option>
+                    <option value="flashflood">Flash Flood</option>
+                    <option value="hail">Hail</option>
+                    <option value="hurricane">Hurricane</option>
+                    <option value="thunderstorm">Thunderstorm</option>
+                    <option value="tornado">Tornado</option>
+                </select>
         </fieldset>
 
         <fieldset>
