@@ -165,8 +165,8 @@ form legend {
 form label.top, form div {
   display: block;
   padding-top: 1 rem;
-  color: red;
-  font-size: .8rem;
+  color: var(--secondary-color);
+  font-size: 13px;
 }
 
 form label.top input, form label.top select {
