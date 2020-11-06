@@ -46,26 +46,21 @@
         </fieldset>
 
         <fieldset>
-            <label class="top" for="stype" id="types">Storm Type
-                <input name="stype" list="stormtype" id="stype">
-            
             <legend>Storm Type</legend>
-            <label class="sbs" for="type" id="type">Storm Type
-                <input name="stype" list="stormtype" id="stype"> 
-                <datalist id="stormtype">
-                    <option value="Flash Flood"></option>
-                    <option value="Hail"></option>
-                    <option value="Hurricane"></option>
-                    <option value="Thunderstorm"></option>
-                    <option value="Tornado"></option>
-                </datalist>
+            <div>Storm Type</div>
+            <label class="sbs"> 
+                <select name="stormtype">
+                    <option value="">Please Select</option>
+                    <option value="flashflood">Flash Flood</option>
+                    <option value="hail">Hail</option>
+                    <option value="hurricane">Hurricane</option>
+                    <option value="thunderstorm">Thunderstorm</option>
+                    <option value="tornado">Tornado</option>
+                </select>
                 </label>
 
-            <label class="sbs" for="type" id="type">Storm Date
-                <input type="date" name="stormdate">
-            </label>
-            
-         
+            <div>Storm Date</div>
+            <label class="sbs"><input type="date" name="stormdate"></label>
             <br>
             <div>Storm Severity Rating</div>
             <label class="sbs" for="rating">&nbsp;&nbsp;&nbsp;
