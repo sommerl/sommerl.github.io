@@ -47,8 +47,7 @@
 
         <fieldset>
             <legend>Storm Type</legend>
-            <div>Storm Type</div>
-            <label class="sbs"> 
+            <label class="sbs">Storm Type 
                 <select name="stormtype">
                     <option value="">Please Select</option>
                     <option value="flashflood">Flash Flood</option>
@@ -59,11 +58,9 @@
                 </select>
                 </label>
 
-            <div>Storm Date</div>
-            <label class="sbs"><input type="date" name="stormdate"></label>
-            <br>
-            <div>Storm Severity Rating</div>
-            <label class="sbs" for="rating">&nbsp;&nbsp;&nbsp;
+            <label class="sbs"><input type="date" name="stormdate">Storm Date</label>
+            
+            <label class="sbs" for="rating">Storm Severity Rating
 				<input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
 				<span id="ratingvalue">5</span>
 			</label>
@@ -80,9 +77,8 @@
 				<option value="9">
 				<option value="10">
 			</datalist>
-            <br>
-            <div>Storm Region</div>
-            <label class="sbs">
+    
+            <label class="sbs">Storm Region
                 <select name="stormregion">
                     <option value="">Select Region</option>
                     <option value="preston">Preston</option>
@@ -91,10 +87,11 @@
                 </select>
                 </label>
 
-            <div>Are you in danger?</div>
+            <label class="sbs">Are you in danger?
             <label class="sbs"><input type="radio" name="danger" value="yes">Yes</label>
             <label class="sbs"><input type="radio" name="danger" value="maybe">Maybe</label>
             <label class="sbs"><input type="radio" name="danger" value="no">No</label>
+            </label>
         </fieldset>
 
         <fieldset>
