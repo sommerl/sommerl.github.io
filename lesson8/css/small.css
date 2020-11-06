@@ -90,6 +90,7 @@ nav {
   background-color: var(--secondary-color);
   line-height: 35px;
   font-size: 20px;
+  padding-left: 1rem;
 }
 nav ul {
   list-style: none;
@@ -190,6 +191,7 @@ form label.sbs {
    display: block;
    padding: .75rem 0;
    color: var(--primary-color);
+   font-family: var(--paragraph-font);
 }
 
 form input.submitBtn {
@@ -201,6 +203,7 @@ form input.submitBtn {
    margin: 0 0 2rem 2%;
    width: 96%;
    max-width: 20rem;
+   font-family: var(--paragraph-font);
 }
 
 form label.top input:required {
