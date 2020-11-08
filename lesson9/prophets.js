@@ -6,7 +6,8 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing 
-    for (let i = 0; i < prophets.length; i++ ) {}
+    for (let i = 0; i < prophets.length; i++ ) {
+    const prophets = jsonObject['prophets'];
   });
 
 
