@@ -10,6 +10,9 @@ fetch(requestURL)
  for (let i = 0; i < prophets.length; i++ ) {
    let card = document.createElement('section');
    let h2 = document.createElement('h2');
+   let dob = document.createElement('p');
+   let bp = document.createElement('p');
+   let img = document.createElement('img');
  
  h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
  image.setAttribute('src', prophets[i].imageurl);
