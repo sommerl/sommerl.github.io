@@ -21,6 +21,9 @@ fetch(requestURL)
  image.setAttribute('src', prophets[i].imageurl);
 
  card.appendChild(h2);
+ card.appendChild(dob);
+ card.appendChild(bp);
+ card.appendChild(image);
  
  document.querySelector('div.cards').appendChild(card);}
   });
