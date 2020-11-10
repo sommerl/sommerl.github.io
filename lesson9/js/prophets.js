@@ -12,7 +12,7 @@ fetch(requestURL)
    let h2 = document.createElement('h2');
    let dob = document.createElement('p');
    let bp = document.createElement('p');
-   let img = document.createElement('img');
+   let image = document.createElement('img');
  
  h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
  image.setAttribute('src', prophets[i].imageurl);
