@@ -1,0 +1,114 @@
+@media only screen and (min-width: 46em) {
+    
+    nav {
+        background: var(--primary-color);
+        
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', endColorstr='#aa0000',GradientType=0 );
+        
+    }
+        
+    nav button {display: none;}
+        
+    nav ul.hide {display: block;}
+        
+    nav ul {text-align: center;}
+        
+    nav ul li{
+        display:inline;
+    }
+        
+    nav ul li a {
+        border: none;
+        padding: .6rem 1rem;
+        display: inline-block;
+    }
+
+    br.responsive {
+        display: none;
+    }
+
+    header img {
+        width: 100%;
+    }
+    h2 {
+        font-size: 15px;
+    }
+
+    .moto {
+        font-size: 1em;
+    }
+
+    .heading {
+        font-size: .8em;
+    }
+
+    .forecast {
+        margin: 10px auto;
+        position: relative;
+        border: 3px dashed var(--primary-color);
+        width: 600px;
+        height: 220px;
+        background-color: lightgrey;
+  }
+  
+  .forecast h3 {
+      text-align: center;
+    }
+  
+  td {
+      font-family: var(--paragraph-font);
+      color: var(--primary-color);
+      background-color: white;
+      }
+  
+      
+  th, td {
+  border: .5px solid var(--primary-color);
+  }
+  
+  table {
+  border-collapse: separate;
+  border-spacing: 41px 13px;
+  }
+
+  .articlepic{
+    width: 350px;
+    float: right;
+    padding-right: 15px
+  }
+
+  .contactmap{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-auto-rows: 100px;
+  }
+
+  .social{
+    grid-column-start: 3;
+    grid-column-end:4;
+    grid-row-start:1;
+    grid-row-end: 2;
+    padding-top: 19px;
+    display: block;
+
+  }
+
+  .contactinfo{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-column-end: 2;
+    padding-left: 60px;
+    display: block;
+  }
+
+  .prestonmap {
+    grid-column-start: 1;
+    grid-column-end:2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding-left: 150px;
+    display: block;
+  }
+
+}
