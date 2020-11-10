@@ -178,6 +178,7 @@ html, body{
   .banner-image{
     height: auto;
     width: 100%;
+    padding-right: 80px;
   }
 
   .herodiv h3{
