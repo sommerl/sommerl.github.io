@@ -17,7 +17,7 @@ fetch(requestURL)
       let aR = document.createElement('p');
 
       
-      h2.textContent = towns[i].name + ' ' + towns[i].lastname;
+      h2.textContent = towns[i].name;
       image.setAttribute('src', towns[i].photo);
       motto.textContent = "Motto: " + towns[i].motto;
       yF.textContent = "Year Founded: " + towns[i].yearFounded;
