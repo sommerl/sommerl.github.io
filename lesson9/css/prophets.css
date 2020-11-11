@@ -1,0 +1,49 @@
+h1, h2 {
+    font-family: 'Sansita Swashed', cursive;
+    text-align: center;
+    color: #03045E;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+main {
+    width: 96%;
+    margin: auto;
+}
+
+div.cards {
+    background-color: #00507A;;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    
+}
+
+img {
+    margin: auto;
+    width: 60%;
+}
+
+/* Media Queries and Grid*/
+
+@media only screen and (min-width: 46em) {
+div.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+}
+
+@media only screen and (min-width: 60em) {
+ div.cards {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+ }
+}
