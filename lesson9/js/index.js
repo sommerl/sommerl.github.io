@@ -30,6 +30,7 @@ fetch(requestURL)
       town.appendChild(yF);
       town.appendChild(cP);
       town.appendChild(aR);
+      town.appendChild(motto);
       
       document.querySelector('div.towninfo').appendChild(town);}
        });
