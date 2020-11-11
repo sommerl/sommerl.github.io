@@ -8,7 +8,7 @@ fetch(requestURL)
     console.table(jsonObject); 
     const towns = jsonObject['towns'];
     for (let i = 0; i < towns.length; i++ ) {
-        let towninfo = document.createElement('section');
+        let town = document.createElement('section');
       let h2 = document.createElement('h2');
       let image = document.createElement('img');
       let motto = document.createElement('p');
