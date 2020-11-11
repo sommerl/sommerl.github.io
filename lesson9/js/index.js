@@ -25,8 +25,10 @@ fetch(requestURL)
       aR.textContent = "Average Rainfall: " + towns[i].averageRainfall;
       
       
-      card.appendChild(h2);
+      town.appendChild(h2);
+      town.appendChild(img);
+      town.appendChild(p);
       
-      document.querySelector('div.towninfo').appendChild(card);}
+      document.querySelector('div.towninfo').appendChild(town);}
        });
      
