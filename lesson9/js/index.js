@@ -26,8 +26,10 @@ fetch(requestURL)
       
       
       town.appendChild(h2);
-      town.appendChild(img);
-      town.appendChild(p);
+      town.appendChild(image);
+      town.appendChild(yF);
+      town.appendChild(cP);
+      town.appendChild(aR);
       
       document.querySelector('div.towninfo').appendChild(town);}
        });
