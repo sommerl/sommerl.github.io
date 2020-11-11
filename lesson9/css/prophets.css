@@ -1,16 +1,27 @@
-h1, h2 {
+h1 {
     font-family: 'Sansita Swashed', cursive;
+    text-align: center;
+    color: white;
+    background-color: #00507A;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+h2 {
+    font-family:'Sansita Swashed', cursive;
     text-align: center;
     color: #03045E;
 }
 
 p {
     font-family: 'PT Sans', sans-serif;
-    color: white;
+    color: #00507A;
 }
 
 body {
     font-family: 'PT Sans', sans-serif;
+    background-color: #03045E;
 }
 
 main {
@@ -18,14 +29,21 @@ main {
     margin: auto;
 }
 
+section {
+    background-color: white;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 div.cards {
     background-color: #00507A;;
     padding: 10px;
     display: block;
     text-align: center;
-    
+    padding-bottom: 30px;
+    box-shadow: 10px 5px solid white;
 }
-
 img {
     margin: auto;
     width: 60%;
@@ -46,4 +64,16 @@ div.cards {
      display: grid;
      grid-template-columns: 1fr 1fr 1fr 1fr;
  }
+}
+
+header {
+    background-color: #03045E;
+    padding: 60px;
+}
+
+footer {
+    background-color: #03045E;
+    padding: 20px;
+    color: white;
+    text-align: center;
 }
