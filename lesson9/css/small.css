@@ -39,13 +39,16 @@ p {
 
 h1 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: white;
+    background-color: var(--primary-color);
+    padding: 10px;
 }
 
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: white;
     text-align: center;
+    text-decoration: underline;
 }
 
 header h1 {
@@ -178,6 +181,7 @@ html, body{
   .banner-image{
     height: auto;
     width: 100%;
+    padding-bottom: 25px;
   }
 
   .herodiv h3{
@@ -187,20 +191,35 @@ html, body{
 
 .herodiv p{
     font-family: var(--paragraph-font);
-    color: var(--primary-color);
+    color: white;
 }
 
 
 .towninfo {
   display: grid;
   grid-template-columns: 1fr;
+  grid-gap: 15px;
 
 }
 
-img {
+section img {
   width: 100%;
+  border: 3px solid white;
 }
 
+div section {
+  text-align: center;
+  border: 1px solid #03045E;
+  padding-top: 15px;
+  background-color: var(--primary-color);
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.home{
+  text-align: center;
+}
 
     
   

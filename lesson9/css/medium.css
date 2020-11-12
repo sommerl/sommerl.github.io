@@ -31,8 +31,18 @@
         width: 100%;
     }
     h2 {
-        font-size: 15px;
+        font-size: 25px;
+        text-decoration: underline;
     }
+
+    p {
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+    }
+
 
     .moto {
         font-size: 1em;
@@ -42,11 +52,45 @@
         font-size: .8em;
     }
 
-    .towninfo {
+
+    .towninfo section {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
-      grid-gap: 10px;
+    }
+    
+    section:nth-child(odd) img {
+      grid-column: 2;
+      grid-row-start: 2;
+      grid-row-end: 5;
+      justify-self: center;
+      border: 3px solid white;
     }
 
+    section:nth-child(even) img {
+      grid-column: 1;
+      grid-row-start: 2;
+      grid-row-end: 5;
+      justify-self: center;
+      border: 3px solid white;
+    }
+    
+    section:nth-child(odd) p {
+      grid-column: 1;
+      padding-bottom: 20px;
+    }
+
+    section:nth-child(odd) h2 {
+      grid-column:1;
+    }
+
+    section:nth-child(even) p {
+      grid-column: 2;
+    }
+
+    section:nth-child(even) h2 {
+      grid-column: 2;
+    }
+
+  
   }
+
