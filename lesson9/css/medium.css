@@ -93,12 +93,12 @@
       grid-column: 2;
     }
 
-    section:nth-child(even) {
+    .towninfo section:nth-child(even) {
       border: 6px solid var(--secondary-color);
       border-radius: 20px;
     }
 
-    section:nth-child(odd) {
+    .towninfo section:nth-child(odd) {
       border: 6px solid var(--secondary-color);
       border-radius: 20px;
     }
