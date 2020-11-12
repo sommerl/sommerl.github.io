@@ -231,4 +231,30 @@ div section {
   border: 6px solid var(--secondary-color);
   border-radius: 20px;
 }
+
+.article h2 {
+  color: var(--primary-color);
+  padding-top: 50px;
+  font-size: 40px;
+}
+.article p {
+  color: var(--primary-color);
+}
+
+.article img {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    width: 50%;
+}
+
+.article{
+  margin: 10px auto;
+  position: relative;
+  background-color: lightgrey;
+  padding: 0px 15px 15px 15px;
+  border-radius: 20px;
+}
+  
   
