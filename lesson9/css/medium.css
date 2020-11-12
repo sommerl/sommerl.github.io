@@ -64,6 +64,7 @@
       grid-row-end: 5;
       justify-self: center;
       border: 3px solid white;
+      border-radius: 20px;
     }
 
     section:nth-child(even) img {
@@ -72,6 +73,7 @@
       grid-row-end: 5;
       justify-self: center;
       border: 3px solid white;
+      border-radius: 20px;
     }
     
     section:nth-child(odd) p {
@@ -89,6 +91,16 @@
 
     section:nth-child(even) h2 {
       grid-column: 2;
+    }
+
+    section:nth-child(even) {
+      border: 6px solid var(--secondary-color);
+      border-radius: 20px;
+    }
+
+    section:nth-child(odd) {
+      border: 6px solid var(--secondary-color);
+      border-radius: 20px;
     }
 
   

@@ -37,13 +37,13 @@
         font-size: 20px;
     }
 
-    .towninfo {
+   div.towninfo {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 15px;
-      
       }
 
-    
-
+div.towninfo section {
+    display: block;
+    height: auto;
+}
 }
