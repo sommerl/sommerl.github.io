@@ -1,4 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Sansita+Swashed:wght@300&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Sansita+Swashed:wght@300&display=swap');
 :root {
     --primary-color: #03045E;
     --secondary-color: #00507A;
@@ -255,6 +255,7 @@ div section {
   background-color: lightgrey;
   padding: 0px 15px 15px 15px;
   border-radius: 20px;
+  border: 2px solid var(--primary-color);
 }
   
   
