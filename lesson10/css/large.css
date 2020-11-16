@@ -36,4 +36,38 @@
     h2 {
         font-size: 20px;
     }
+
+    .contactmap{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+        grid-template-rows: 1fr 1fr;
+      }
+    
+      .social{
+        grid-column-start: 2;
+        grid-column-end:8;
+        grid-row-start:1;
+        grid-row-end: 2;
+        padding-left: 80px;
+    
+      }
+    
+      .contactinfo{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-column-end: 2;
+        padding-left: 132px;
+        padding-top: 125px;
+        display: block;
+      }
+    
+      .prestonmap {
+        grid-column-start: 1;
+        grid-column-end:2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        
+        display: block;
+      }
 }
