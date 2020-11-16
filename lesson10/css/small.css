@@ -243,8 +243,6 @@ h3 {
 
   .social{
     float: right;
-    padding-top:1px;
-    padding-right: 100px;
   }
 
   .social h3{
@@ -253,7 +251,7 @@ h3 {
   
   .contactinfo{
     float: right;
-    padding-right: 100px;
+    padding-top: 20px;
   }
 
   #big-banner {
