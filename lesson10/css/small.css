@@ -157,25 +157,24 @@ html, body{
   }
 
   .herodiv {
-      margin: 10px auto;
-      position: relative;
-      border: 1px dashed var(--primary-color);
+    margin: 10px auto;
+    position: relative;
 
-      
-  }
-
-  .weathersummary {
-    position: absolute;
-    top: 2em;
-    left: 2em;
-    background: radial-gradient(#03045E, #03045E);
-    border: 1px solid var(--primary-color);
-    padding: .5rem;
-    box-shadow: 0 0 30px #777;
-    opacity: .8;
-    width: 30%;
-    text-align: center;
+    
 }
+
+.weathersummary {
+  position: absolute;
+  top: 2em;
+  left: 2em;
+  background: radial-gradient(#03045E, #03045E);
+  padding: .5rem;
+  box-shadow: 0 0 30px #777;
+  opacity: .8;
+  width: 30%;
+  text-align: center;
+}
+
   .banner-image{
     height: auto;
     width: 100%;
