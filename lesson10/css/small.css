@@ -165,7 +165,7 @@ html, body{
 
 .weathersummary {
   position: absolute;
-  top: 2em;
+  top: 1em;
   left: 2em;
   background: radial-gradient(#03045E, #03045E);
   padding: .5rem;
@@ -173,6 +173,7 @@ html, body{
   opacity: .8;
   width: 30%;
   text-align: center;
+  padding-top: 10px;
 }
 
   .banner-image{
