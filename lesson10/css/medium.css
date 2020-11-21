@@ -42,39 +42,68 @@
         font-size: .8em;
     }
 
-    .forecast {
-        margin: 10px auto;
-        position: relative;
-        border: 3px dashed var(--primary-color);
-        width: 600px;
-        height: 220px;
-        background-color: lightgrey;
-  }
-  
-  .forecast h3 {
+    .weathersummary {
+      position: absolute;
+      top: 1em;
+      left: 2em;
+      background: radial-gradient(#03045E, #03045E);
+      padding: .5rem;
+      box-shadow: 0 0 30px #777;
+      opacity: .8;
+      width: 30%;
       text-align: center;
+      padding-top: 10px;
     }
-  
-  td {
-      font-family: var(--paragraph-font);
-      color: var(--primary-color);
-      background-color: white;
-      }
-  
-      
-  th, td {
-  border: .5px solid var(--primary-color);
-  }
-  
-  table {
-  border-collapse: separate;
-  border-spacing: 41px 13px;
-  }
 
+    .forecast {
+      margin: 1px auto;
+      position: relative;
+      width: 670px;
+      height: 220px;
+      background-color: lightgray;
+}
+
+.weatherhead h3{
+  text-align: center;
+  padding-top: 10px;
+  text-decoration: underline;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: lightgrey;
+}
+
+#five-day-forecast{
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+    list-style: none;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   padding-right: 40px;
+    }
+
+ #five-day-forecast p {
+   color: var(--primary-color);
+ }
+
+ #five-day-forecast li {
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  background-color: white;
+  margin: 1rem;
+  padding: 20px;
+  padding-bottom: 10px;
+  }
+  
   .articlepic{
     width: 350px;
     float: right;
     padding-right: 15px
+  }
+
+  .article h3{
+    text-align: left; 
+    padding-left: 100px;
   }
 
   .contactmap{

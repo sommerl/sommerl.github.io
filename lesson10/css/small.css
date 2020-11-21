@@ -18,6 +18,14 @@ html{
     background-color: var(--background-color);
 }
 
+#big-banner {
+  padding: 25px;
+  text-align: center;
+  font-size: 25px;
+  background-color: var(--secondary-color);
+}
+
+
 body {
     margin: 0 auto;
     background-color: var(--accent1-color);
@@ -159,21 +167,7 @@ html, body{
   .herodiv {
     margin: 10px auto;
     position: relative;
-
-    
-}
-
-.weathersummary {
-  position: absolute;
-  top: 1em;
-  left: 2em;
-  background: radial-gradient(#03045E, #03045E);
-  padding: .5rem;
-  box-shadow: 0 0 30px #777;
-  opacity: .8;
-  width: 30%;
-  text-align: center;
-  padding-top: 10px;
+    width: 100%;
 }
 
   .banner-image{
@@ -201,17 +195,26 @@ h3 {
     color: var(--primary-color)
   }
 
-.article{
-    margin: 10px auto;
+  .weathersummary {
     position: relative;
-    background-color: lightgrey;
-}
-
-.article h1{
-    text-align: left; 
-    padding-left: 20px;
+    background: radial-gradient(#03045E, #03045E);
+    padding: .5rem;
+    box-shadow: 0 0 30px #777;
+    width: 100%;
+    text-align: center;
     padding-top: 10px;
   }
+
+.article{
+    margin-top: 80px;
+    position: relative;
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+.article h3{
+  text-align: center; 
+}
 
 .article p{
     padding-left: 10px;
@@ -219,6 +222,7 @@ h3 {
 
   .articlepic{
     width: 100%;
+    padding: 15px;
   }
 
   .prestonmap{
@@ -285,6 +289,12 @@ h3 {
       .prestonmap {
         display: none;
       }
+
+      #five-day-forecast {
+        display: none;
+      }
+    
+      
   
     
   

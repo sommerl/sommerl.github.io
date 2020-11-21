@@ -11,11 +11,11 @@
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
     </head>
+    <div id="big-banner">
+        Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.
+        </div>
     <body>
         <header>
-            <div id="big-banner">
-                Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.
-                </div>
             <picture>
             <img src="images/weatherlogoresize.png" alt="weather logo">
             </picture>
@@ -44,53 +44,16 @@
                 <p>Current Temp: <span id="current-temp"></span>&deg; F</p>
                 <p>Current: <span id="current"></span></p>
                 <p>High: <span id="high-temp"></span>&deg; F</p>
-                <p>Wind Chill: N/A </p>
+                <p>Wind Chill: <span id="windchill"></span></p>
                 <p>Humidity: <span id="humidity"></span>%</p>
                 <p>Wind Speed: <span id="wind-speed"></span> MPH</p>
             </section>
             </div>
+            <div class="weatherhead">
+            <h3>5 Day Weather Forecast</h3>
+            </div>
             <div class="forecast">
-                <h3>5 Day Weather Forecast</h3>
-                <table class="weekdays">
-                    <thead>
-                    <tr align="center">
-                        <td>Monday </td>
-                        <td>Tuesday </td>
-                        <td>Wednesday </td>
-                        <td>Thursday </td>
-                        <td>Friday </td>
-                    </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td align="center" valign="center">
-                                <img src="images/sun.png" alt="sun" />
-                                <br />
-                                <span id="monday"></span>&deg; F
-                            </td>
-                            <td align="center" valign="center">
-                                <img src="images/sun.png" alt="sun" />
-                                <br />
-                                60°F
-                            </td>
-                            <td align="center" valign="center">
-                                <img src="images/sun.png" alt="sun" />
-                                <br />
-                                58°F
-                            </td>
-                            <td align="center" valign="center">
-                                <img src="images/sun.png" alt="sun" />
-                                <br />
-                                62°F
-                            </td>
-                            <td align="center" valign="center">
-                                <img src="images/sun.png" alt="sun" />
-                                <br />
-                                50°F
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                <ul id="five-day-forecast" class="center"></ul>
             </div>
             <div class="article">
                 <h3>Preston Boys Take On Skyline</h3>
