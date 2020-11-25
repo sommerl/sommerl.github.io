@@ -31,18 +31,8 @@
         width: 100%;
     }
     h2 {
-        font-size: 25px;
-        text-decoration: underline;
+        font-size: 15px;
     }
-
-    p {
-      display: block;
-      margin-block-start: 1em;
-      margin-block-end: 1em;
-      margin-inline-start: 0px;
-      margin-inline-end: 0px;
-    }
-
 
     .moto {
         font-size: 1em;
@@ -52,60 +42,102 @@
         font-size: .8em;
     }
 
-
-    .towninfo section {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-    }
-    
-    section:nth-child(odd) img {
-      grid-column: 2;
-      grid-row-start: 2;
-      grid-row-end: 5;
-      justify-self: center;
-      border: 3px solid white;
-      border-radius: 20px;
+    .weathersummary {
+      position: absolute;
+      top: 1em;
+      left: 2em;
+      background: radial-gradient(#03045E, #03045E);
+      padding: .5rem;
+      box-shadow: 0 0 30px #777;
+      opacity: .8;
+      width: 30%;
+      text-align: center;
+      padding-top: 10px;
     }
 
-    section:nth-child(even) img {
-      grid-column: 1;
-      grid-row-start: 2;
-      grid-row-end: 5;
-      justify-self: center;
-      border: 3px solid white;
-      border-radius: 20px;
-    }
-    
-    section:nth-child(odd) p {
-      grid-column: 1;
-      padding-bottom: 20px;
+    .forecast {
+      margin: 1px auto;
+      position: relative;
+      width: 670px;
+      height: 220px;
+      background-color: lightgray;
+}
+
+.weatherhead h3{
+  text-align: center;
+  padding-top: 10px;
+  text-decoration: underline;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: lightgrey;
+}
+
+#five-day-forecast{
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+    list-style: none;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   padding-right: 40px;
     }
 
-    section:nth-child(odd) h2 {
-      grid-column:1;
-    }
+ #five-day-forecast p {
+   color: var(--primary-color);
+ }
 
-    section:nth-child(even) p {
-      grid-column: 2;
-    }
-
-    section:nth-child(even) h2 {
-      grid-column: 2;
-    }
-
-    .towninfo section:nth-child(even) {
-      border: 6px solid var(--secondary-color);
-      border-radius: 20px;
-    }
-
-    .towninfo section:nth-child(odd) {
-      border: 6px solid var(--secondary-color);
-      border-radius: 20px;
-    }
-    
-    .article img {
-      width: 50%;
-    }
+ #five-day-forecast li {
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  background-color: white;
+  margin: 1rem;
+  padding: 20px;
+  padding-bottom: 10px;
+  }
   
+  .articlepic{
+    width: 350px;
+    float: right;
+    padding-right: 15px
   }
 
+  .article h3{
+    text-align: left; 
+    padding-left: 100px;
+  }
+
+  .contactmap{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .social{
+    grid-column-start: 2;
+    grid-column-end:8;
+    grid-row-start:1;
+    grid-row-end: 2;
+    padding-left: 100px;
+
+  }
+
+  .contactinfo{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-column-end: 2;
+    padding-left: 120px;
+    padding-top: 115px;
+    display: block;
+  }
+
+  .prestonmap {
+    grid-column-start: 1;
+    grid-column-end:2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+    display: block;
+  }
+
+}
