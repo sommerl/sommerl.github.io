@@ -12,29 +12,29 @@ fetch(apiURL)
         document.getElementById('current').textContent = jsObject.weather[0].description.toUpperCase();
 
         let windchill;
-            if ('current-temp' <= 50.0 && 'wind-speed' > 3.0) {
-                windchill = 35.74 + (0.6215 * 'current-temp') - (35.75 * Math.pow('wind-speed',0.16)) + (0.4275 * 'current-temp' * Math.pow('wind-speed',0.16)) + "°F";
-            }
-            else {
-                windchill = "N/A"
-            }
-            
-             document.getElementById('windchill').textContent = windchill;
-    
+        if ('current-temp' <= 50.0 && 'wind-speed' > 3.0) {
+            windchill = 35.74 + (0.6215 * 'current-temp') - (35.75 * Math.pow('wind-speed', 0.16)) + (0.4275 * 'current-temp' * Math.pow('wind-speed', 0.16)) + "°F";
+        }
+        else {
+            windchill = "N/A"
+        }
+
+        document.getElementById('windchill').textContent = windchill;
+
     });
 
-    
+
 
 const forecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=290e5c7b68ca4a803da90608515efd48";
 const IconURL = "https://openweathermap.org/img/w/";
 const daysAbv = ["Sun", 'Mon', "Tue", "Wed", "Thur", "Fri", "Sat"];
 
 fetch(forecastURL)
-    .then((response) => response.json()) 
+    .then((response) => response.json())
     .then((fivedays) => {
         console.log(fivedays);
 
-        const fiveat1800 = fivedays.list.filter(x => new Date(x.dt_txt).getHours() == 18 );
+        const fiveat1800 = fivedays.list.filter(x => new Date(x.dt_txt).getHours() == 18);
         console.log(fiveat1800);
 
         for (let i = 0; i < fiveat1800.length; i++) {
@@ -42,7 +42,7 @@ fetch(forecastURL)
             let day = document.createElement('p');
             let icon = document.createElement('img');
             let temp = document.createElement('p');
-            
+
             let date = new Date(fiveat1800[i].dt_txt);
             day.textContent = daysAbv[date.getDay()];
 
@@ -56,7 +56,7 @@ fetch(forecastURL)
             document.getElementById('five-day-forecast').appendChild(li);
 
         }
-});
+    });
 
 
 const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json'
@@ -69,19 +69,19 @@ fetch(requestURL)
         console.table(jsonObject);
         let towns = jsonObject['towns'];
         towns = towns.filter(town => (town.name === 'Preston'))
-        for (let i = 0; i < towns.length; i++) {
-            let town = document.createElement('section');
-            let event = document.createElement('p');
+            for (let i = 0; i < towns.length; i++) {
+                let town = document.createElement('section');
+                let event = document.createElement('p');
 
 
-            event.textContent = towns[i].events[0];
-            event.textContent = towns[i].events[1];
-        
-            
+                event.textContent = towns[i].events;
 
-            town.appendChild(event);
 
-            document.querySelector('div.eventinfo').appendChild(town);
+
+
+                town.appendChild(event);
+
+                document.querySelector('div.eventinfo').appendChild(town);
         }
     });
 

@@ -68,20 +68,19 @@ fetch(requestURL)
         console.table(jsonObject);
         let towns = jsonObject['towns'];
         towns = towns.filter(town => (town.name === 'Soda Springs'))
-        for (let i = 0; i < towns.length; i++) {
-            let town = document.createElement('section');
-            let event = document.createElement('p');
+            for (let i = 0; i < towns.length; i++) {
+                let town = document.createElement('section');
+                let event = document.createElement('p');
 
 
-            event.textContent = towns[i].events[0];
-            event.textContent = towns[i].events[1];
-        
-            
+                event.textContent = towns[i].events;
 
-            town.appendChild(event);
 
-            document.querySelector('div.eventinfo').appendChild(town);
+
+
+                town.appendChild(event);
+
+                document.querySelector('div.eventinfo').appendChild(town);
         }
     });
-
 
