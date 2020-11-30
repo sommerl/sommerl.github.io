@@ -357,6 +357,22 @@ h3 {
         border-radius: 20px;
         border: 6px solid var(--secondary-color);
       }
+
+      .eventinfo section {
+        width: 100%;
+  
+      }
+  
+      .eventinfo{
+        padding-left: 80px;
+        padding-right: 80px;
+      }
+        
+      .eventinfo p{
+        color: white;
+      }
+  
+    
         
         
     
