@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Krona+One&display=swap');
 :root {
-    --primary-color: #27497F;
+    --primary-color: #1d3557;
     --secondary-color: #FFFFFF;
     --background-color: #99C1FF;
-    --accent1-color: #615E5D;
+    --accent1-color: #007236;
 
     --paragraph-font: 'Josefin Sans', sans-serif;
     --heading-font: 'Krona One', sans-serif;

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Krona+One&display=swap');
 :root {
-    --primary-color: #27497F;
+    --primary-color: #1d3557;
     --secondary-color: #FFFFFF;
     --background-color: #99C1FF;
     --accent1-color: #615E5D;
@@ -23,7 +23,7 @@ body {
 main {
     padding: 1em;
     border-radius: 10px;
-    background-color: white;
+    background-color: var(--secondary-color);
 }
 
 li {
