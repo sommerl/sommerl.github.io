@@ -26,6 +26,11 @@ main {
     background-color: white;
 }
 
+li {
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+}
+
 
 p {
     font-family: var(--paragraph-font);
@@ -37,7 +42,7 @@ h1 {
     color: var(--primary-color);
 }
 
-h2 {
+h2, h3 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     font-size: px;
