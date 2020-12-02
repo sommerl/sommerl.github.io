@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Krona+One&display=swap');
+:root {
+    --primary-color: #27497F;
+    --secondary-color: #FFFFFF;
+    --background-color: #99C1FF;
+    --accent1-color: #615E5D;
+
+    --paragraph-font: 'Josefin Sans', sans-serif;
+    --heading-font: 'Krona One', sans-serif;
+}
+
+html{
+    background-color: var(--primary-color);
+}
+
+body {
+    margin: 0 auto;
+    background-color: var(--background-color);
+    max-width: 80%;
+    border-radius: 10px;
+}
+
+main {
+    padding: 1em;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+p {
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+}
+
+h1 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    font-size: px;
+}
+
+header h1 {
+    color:var(--secondary-color);
+    font-size: 30px;
+}
+
+header h2 {
+    color: var(--secondary-color);
+}
+
+header, footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1em;
+}
+
+footer {
+    color: var(--secondary-color);
+    font-family: var(--paragraph-font);
+}
+
+footer a:link, footer a:visited {
+    color: white;
+}
+
+nav {
+    font-family: var(--heading-font);
+    color: var(--background-color);
+    font-weight: bold;
+    font-size: 20px;
+}
+nav ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+    background: var(--background-color);
+    padding: 2em;
+    border-radius: 10px;
+}
+nav a:link, nav a:visited {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+nav a:hover {
+    color: var(--secondary-color);
+}
