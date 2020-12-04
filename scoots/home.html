@@ -7,16 +7,19 @@
     <title>Scoots Site Plan</title>
     <meta name="description" content="My Weather Site">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/small.css">
 </head>
 
 <body>
     <header>
+        <div class="namelogo">
         <h1>Scoots</h1>
         <h2>Motor Scooter Rentals</h2>
-        <img src="images/FinalLogoScoots.png" alt="Scoots Logo">
-        <nav>
-            <ul>
+        <img src="images/ScootsLogo.png" alt="Scoots Logo" class="scoots-logo">
+        </div>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+            <ul id="mainNav">
                 <li><a href="">Home</a></li>
                 <li><a href="">Rentals</a></li>
                 <li><a href="">Reservations</a></li>
@@ -28,7 +31,7 @@
     <main>
         <h2 class="welcome">Welcome</h2>
         <div class="herodiv">
-            <img src="" alt="banner img" class="banner-image">
+            <img src="images/homepagebanner.jpg" alt="banner img" class="banner-image">
         </div>
         <div class="rentaltype">
             <h2>Types of Rentals</h2>
@@ -45,8 +48,8 @@
     </main>
     <footer>
         <span>
-            &copy; <span id="year"></span> | Laura Sommer | Logan, Utah | <a href="https://www.byui.edu/online"
-                target="_blank">BYU-Idaho Online Learning</a>
+            &copy; <span id="year"></span> | Motor Scooter Rentals | Cozumel, Mexico | <a href="https://www.scootcozumel.com"
+                target="_blank">Scoots</a>
         </span>
         <br>
         <span id="lastupdated"></span>
