@@ -23,7 +23,7 @@ fetch(apiURL)
             const threeat1800 = threedays.list.filter(x => new Date(x.dt_txt).getHours() == 18);
             console.log(threeat1800);
     
-            for (let i = 2; i < threeat1800.length; i++) {
+            for (let i = 0; i < threeat1800.length; i++) {
                 let li = document.createElement('li');
                 let day = document.createElement('p');
                 let icon = document.createElement('img');
