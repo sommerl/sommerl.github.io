@@ -134,16 +134,21 @@ img.scoots-logo {
 
 img.banner-image {
     width: 100%;
+}
 
+.welcome h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
     background-color: var(--primary-color);
     font-family: var(--paragraph-font);
     color: var(--secondary-color);
-    padding: 10px;
+    padding: 30px;
     text-decoration: underline;
-    font-size: 16px;
+    font-size: 20px;
     border-radius: 10px;
   }
 
@@ -157,6 +162,35 @@ button:hover {
     align-items: center;
 }
 
+.weathersummary {
+    text-align: center;
+    padding: .5rem;
+    background-color: var(--background-color);
+    width: 50%;
+    border-style: solid;
+    border-color: var(--primary-color);
+    border-width: 8px;
+    border-radius: 15px;
+    margin: 0 auto;
+  
+}
+
+.weathersummary div {
+    align-content: center;
+}
+
+.weathersummary h3 {
+    text-decoration: underline;
+}
+
+#three-day-forecast {
+    display: none;
+  }
+
+.social {
+    display: flex;
+    align-content: center;
+}
 
 
 
