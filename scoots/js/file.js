@@ -7,3 +7,4 @@ document.getElementById("lastupdated").innerHTML = "Last Updated: " + lastmod;
 function toggleMenu(){
     document.getElementById("mainNav").classList.toggle("hide");
 }
+
