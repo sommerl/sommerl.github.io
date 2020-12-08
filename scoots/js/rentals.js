@@ -1,4 +1,4 @@
-const requestURL = src='data/rentals.json';
+const requestURL = "https://github.com/sommerl/sommerl.github.io/blob/master/scoots/data/rentals.json";
 fetch(requestURL)
   .then(function (response) {
     return response.json();
