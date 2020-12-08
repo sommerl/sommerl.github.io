@@ -207,6 +207,11 @@ button:hover {
     display: none;
   }
 
+.resort-image {
+    width: 50%;
+    margin: 0 auto;
+}
+
 .contact {
     align-content: center;
     text-align: center;
@@ -223,6 +228,25 @@ button:hover {
 
 .social h3 {
     padding-right: 20px;
+}
+
+div.table {
+    background-color: #00507A;;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    padding-bottom: 30px;
+    box-shadow: 10px 5px solid white;
+}
+
+.table h2 {
+    color: white;
+}
+
+/*RENTALS CSS*/
+
+.rental-image {
+    width: 100%;
 }
 
 
