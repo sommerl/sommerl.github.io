@@ -268,6 +268,7 @@ form fieldset {
     font-family: var(--heading-font);
     background-color: var(--primary-color);
     border: 3px solid var(--accent1-color);
+    border-radius: 10px;
   }
   
   form label.top, form div {
@@ -288,7 +289,7 @@ form fieldset {
     color: var(--secondary-color);
     width: 100%;
     max-width: 20rem;
-    background-color: rgba(0,0,0,0.1);
+    background-color: white;
   
   }
   
@@ -341,3 +342,7 @@ form fieldset {
      color: var(--accent1-color);
   }
 
+  .deposithead {
+    font-size: 25px;
+    text-align: center;
+  }
