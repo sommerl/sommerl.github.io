@@ -31,7 +31,7 @@
     </header>
     <main>
         <h1 class="reservehead">Reservation Form</h1>
-        <form onsubmit="return results();" class="form" method="get" action="deposit.html">
+        <form method="get" action="deposit.html">
             <fieldset>
                 <legend>Reservation Information</legend>
                 <label class="sbs">Cruise Line:
@@ -87,13 +87,17 @@
                 <label><textarea id="infocomments" name="infocomments" placeholder=" Type here..." rows="5" cols="50"></textarea></label>
             </fieldset>
 
-            <input type="submit" value="Report Storm" class="submitBtn">
+            <input type="submit" value="Make Reservation" class="submitBtn">
 
         </form>
     </main>
     <footer>
-        &#169; Right On Weather | Attributions | Laura Sommer
-        <div id="updated"></div>
+        <span>
+            &copy; <span id="year"></span> | Motor Scooter Rentals | Cozumel, Mexico | <a
+                href="https://www.scootcozumel.com" target="_blank">Scoots</a>
+        </span>
+        <br>
+        <span id="lastupdated"></span>
     </footer>
     <script src="js/file.js"></script>
     <script src="js/reservation.js>"></script>

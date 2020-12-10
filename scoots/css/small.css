@@ -124,6 +124,8 @@ nav button {
   nav ul li.active a{
     background-color: var(--accent1-color);
     text-decoration: underline;
+    color: white;
+    border-radius: 10px;
   }
 
 img.scoots-logo {
@@ -319,5 +321,23 @@ form fieldset {
 
   .reservehead {
       text-align: center;
+  }
+
+  /*DEPOSIT CSS*/
+
+  .formresponse {
+      text-align: center;
+      padding-left: 80px;
+      padding-right: 80px;
+  }
+
+  .formresponse h1 {
+      text-decoration: underline;
+      font-size: 35px;
+  }
+
+  .formresponse p{
+     font-size: 25px;
+     color: var(--accent1-color);
   }
 
