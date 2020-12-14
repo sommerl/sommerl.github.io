@@ -253,6 +253,8 @@ div.table {
 
 /*RESERVATION CSS*/
 form fieldset {
+    display: flex;
+    flex-direction: column;
     margin: 6rem;
     border: 3px solid var(--primary-color);
     border-radius: 10px;

@@ -30,6 +30,13 @@ fetch(requestURL)
       table.appendChild(th);
       table.appendChild(mp);
       table.appendChild(rs);
+      table.appendChild(hdr);
+      table.appendChild(fdr); 
+      table.appendChild(hdw); 
+      table.appendChild(fdw);  
+      table.appendChild(p);      
+
+
 
       document.querySelector('div.table').appendChild(table);
     }

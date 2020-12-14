@@ -21,9 +21,9 @@
         <nav class="clearfix">
             <button onclick="toggleMenu()">&#9776; Menu</button>
             <ul id="mainNav">
-                <li class="active"><a href="https://sommerl.github.io/scoots/home">Home</a></li>
+                <li><a href="https://sommerl.github.io/scoots/home">Home</a></li>
                 <li><a href="https://sommerl.github.io/scoots/rentals">Rentals</a></li>
-                <li><a href="https://sommerl.github.io/scoots/reservation">Reservations</a></li>
+                <li class="active"><a href="https://sommerl.github.io/scoots/reservation">Reservations</a></li>
                 <li><a href="https://sommerl.github.io/scoots/tours">Tours</a></li>
                 <li><a href="https://sommerl.github.io/scoots/contact">Contact</a></li>
             </ul>
@@ -32,30 +32,10 @@
     <main>
         <div class="formresponse">
             <h1>Reservation Confirmation</h1>
-            <p>Thank you for submitting your Reservation. Please review your Reservation below. If the information is
-                correct please fill out the form below to pay the deposit and complete your reservation. Thank
-                you!
+            <p>Thank you for submitting your Reservation! You will receive an email shortly with more information on
+                your reservation.
             </p>
         </div>
-        <br>
-        <form>
-            <h1 class="deposithead">Make Deposit and Complete Reservation</h1>
-            <fieldset>
-                <legend>Payment</legend>
-            <label class="sbs">Payment Type:
-                <select name="rentaltype">
-                    <option value="0">Please Select</option>
-                    <option value="1">Debit</option>
-                    <option value="2">Credit</option>
-                </select>
-                </label>
-                <label class="top">Name on Card: <input type="text" name="name" required></label>
-                <label class="top">Card Number: <input type="text" name="cnumber" required></label>
-                <label class="top">Card CVV: <input type="text" name="cvv" required></label>
-                <label class="top">Billing Address: <input type="address" name="address" required></label>
-                </fieldset>
-                <input type="submit" value="Pay Deposit/Make Reservation" class="submitBtn">
-        </form>
     </main>
     <footer><span>
             &copy; <span id="year"></span> | Motor Scooter Rentals | Cozumel, Mexico | <a
