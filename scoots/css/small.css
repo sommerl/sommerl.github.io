@@ -45,7 +45,7 @@ h1 {
     color: var(--primary-color);
 }
 
-h2, h3 {
+h2, h3, h4 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     font-size: px;
@@ -348,3 +348,49 @@ form fieldset {
     font-size: 25px;
     text-align: center;
   }
+
+  /*TOURS CSS*/
+
+.websites {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.websites .firsttour {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.websites .secondtour {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.websites .thirdtour {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.tours-1 {
+    float: right;
+    border-radius: 10px;
+}
+
+.tours-2 {
+    float: left;
+    border-radius: 10px;
+  }
+
+.tours-3 {
+    float: right;
+    border-radius: 10px;
+  }
+
+
