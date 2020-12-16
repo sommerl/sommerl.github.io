@@ -503,15 +503,14 @@ form fieldset {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    align-items: center;
 }
 
 .info {
-    grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 6;
     grid-row-start: 1;
-    padding-left: 20px;
-    padding-right: 20px;
+    grid-row-end: 2;
+    padding-right: 120px;
 }
 
 .info h2 {
@@ -523,22 +522,22 @@ form fieldset {
     text-align: center;
 }
 
-.map1 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
+.map-responsive{
+    padding-bottom:56.25%;
+    position: relative;
+    padding-left: 150px;
 }
-
-.map2 {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 1;
+.map-responsive iframe{
+    height:auto;
+    width:auto;
+    position: relative;
 }
 
 .reservehead {
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 5;
     grid-row-start: 2;
+    grid-row-end: 3;
     text-align: center;
     padding-left: 20px;
     text-decoration: underline;
@@ -546,14 +545,7 @@ form fieldset {
 
 .contactform {
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 5;
     grid-row-start: 2;
-}
-
-.location1 {
-    width: auto;
-}
-
-.location2 {
-    width: auto;
+    grid-row-end: 3;
 }

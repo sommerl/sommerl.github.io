@@ -72,5 +72,82 @@
     padding: 20px;
     padding-bottom: 10px;
     }
+
+    /* RESERVATION CSS*/
+    .tourshead {
+        text-align: center;
+        background-color: lightgrey;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    
+    .cozumelhistory h3 {
+        font-size: 25px;
+        text-decoration: underline;
+    }
+    
+    .cozumelhistory p {
+        font-size: 17px;
+        background-color: var(--background-color);
+        border-radius: 10px;
+    }
+    
+    .cozumelhistory h4 {
+        font-size: 20px;
+        text-decoration: underline;
+    }
+    
+    .aboveisland {
+        border-radius: 4px;
+        border: solid 5px var(--primary-color);
+    }
+    
+    .cozumelhistory {
+        text-align: center;
+    }
+    
+    .websites {
+        background-color: var(--accent1-color);
+        padding-top: 80px;
+        border-radius: 10px;
+    }
+    
+    .websites p {
+        color: white;
+    }
+    
+    .firsttour h4 {
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    .firsttour h4:hover {
+        background-color: var(--background-color);
+        padding: 10px;
+    }
+    
+    .secondtour h4 {
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+    .secondtour h4:hover {
+        background-color: var(--background-color);
+        padding: 10px;
+    }
+    
+    .thirdtour h4 {
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    .thirdtour h4:hover {
+        background-color: var(--background-color);
+        padding: 10px;
+    }
     
 }
