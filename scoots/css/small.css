@@ -510,7 +510,6 @@ form fieldset {
     grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 2;
-    padding-right: 120px;
 }
 
 .info h2 {
@@ -523,7 +522,6 @@ form fieldset {
 }
 
 .map-responsive{
-    padding-bottom:56.25%;
     position: relative;
     padding-left: 150px;
 }
